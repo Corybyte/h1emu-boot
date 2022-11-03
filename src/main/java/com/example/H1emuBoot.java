@@ -7,6 +7,8 @@ import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.Listener;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 
+import java.io.IOException;
+
 
 public class H1emuBoot extends JavaPlugin {
     GroupUtil groupUtil =new GroupUtil();
@@ -32,7 +34,11 @@ public class H1emuBoot extends JavaPlugin {
 
         //监听群组消息
         Listener listener = GlobalEventChannel.INSTANCE.subscribeAlways(GroupMessageEvent.class, event -> {
-            groupUtil.getMembers(event);
+            try {
+                groupUtil.getMembers(event);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         });
 
 

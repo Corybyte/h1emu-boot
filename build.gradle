@@ -2,12 +2,25 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.7.10'
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.7.10'
     id 'net.mamoe.mirai-console' version '2.12.2'
+
 }
+
 
 group = 'com.example'
 version = '0.1.0'
+
 
 repositories {
     maven { url 'https://maven.aliyun.com/repository/public' }
     mavenCentral()
 }
+
+dependencies{
+    // https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp
+    implementation group: 'com.squareup.okhttp', name: 'okhttp', version: '2.7.5'
+    // https://mvnrepository.com/artifact/com.alibaba/fastjson
+    implementation group: 'com.alibaba', name: 'fastjson', version: '2.0.17'
+
+}
+
+
