@@ -6,8 +6,10 @@ import net.mamoe.mirai.console.plugin.jvm.JvmPluginDescriptionBuilder;
 import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.Listener;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
+import net.mamoe.mirai.event.events.MemberJoinRequestEvent;
 
 import java.io.IOException;
+import java.util.List;
 
 
 public class H1emuBoot extends JavaPlugin {
@@ -40,6 +42,10 @@ public class H1emuBoot extends JavaPlugin {
                 throw new RuntimeException(e);
             }
         });
+
+        GlobalEventChannel.INSTANCE.subscribeAlways(MemberJoinRequestEvent.class,event -> {
+        });
+
 
 
     }
