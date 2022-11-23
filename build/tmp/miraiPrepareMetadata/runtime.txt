@@ -1,0 +1,12 @@
+com.alibaba.fastjson2:fastjson2-extension:2.0.17
+com.alibaba.fastjson2:fastjson2:2.0.17
+com.alibaba:fastjson:2.0.17
+com.squareup.okhttp:okhttp:2.7.5
+com.squareup.okio:okio:1.6.0
+org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10
+org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10
+org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10
+org.jetbrains.kotlin:kotlin-stdlib:1.7.10
+org.jetbrains:annotations:13.0
+org.springframework:spring-core:5.3.23
+org.springframework:spring-jcl:5.3.23
