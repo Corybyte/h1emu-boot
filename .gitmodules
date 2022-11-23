@@ -1,0 +1,3 @@
+[submodule "my-project1"]
+	path = my-project1
+	url = https://github.com/vueComponent/ant-design-vue-pro.git
