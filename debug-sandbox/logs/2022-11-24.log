@@ -1,0 +1,89 @@
+2022-11-24 07:06:02 I/main: Starting mirai-console...
+2022-11-24 07:06:02 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-11-24 07:06:02 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-11-24 07:06:02 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-11-24 07:06:02 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-11-24 07:06:03 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-11-24 07:06:03 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-11-24 07:06:03 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-11-24 07:06:03 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-11-24 07:06:04 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-11-24 07:06:04 I/main: 1 plugin(s) enabled.
+2022-11-24 07:06:04 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-11-24 07:06:04 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-11-24 07:06:04 I/main: Auto-login 2645691758
+2022-11-24 07:06:04 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-11-24 07:06:04 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-11-24 07:06:05 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-11-24 07:06:05 I/Bot.2645691758: Login successful.
+2022-11-24 07:06:05 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-11-24 07:06:05 I/Bot.2645691758: Bot login successful.
+2022-11-24 07:06:05 I/main: mirai-console started successfully.
+2022-11-24 07:06:27 W/console: Closing input service...
+2022-11-24 07:06:27 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-11-24 07:06:31 I/main: Starting mirai-console...
+2022-11-24 07:06:31 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-11-24 07:06:31 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-11-24 07:06:31 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-11-24 07:06:31 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-11-24 07:06:31 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-11-24 07:06:31 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-11-24 07:06:31 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-11-24 07:06:32 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-11-24 07:06:32 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-11-24 07:06:32 I/main: 1 plugin(s) enabled.
+2022-11-24 07:06:32 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-11-24 07:06:32 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-11-24 07:06:32 I/main: Auto-login 2645691758
+2022-11-24 07:06:32 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-11-24 07:06:33 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-11-24 07:06:33 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-11-24 07:06:33 I/Bot.2645691758: Login successful.
+2022-11-24 07:06:33 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-11-24 07:06:33 I/Bot.2645691758: Bot login successful.
+2022-11-24 07:06:33 I/main: mirai-console started successfully.
+2022-11-24 07:10:21 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-11-24 07:10:24 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-11-24 07:10:28 W/console: 参数不匹配, 你是否想执行: 
+/login <qq> [password] [protocol]    (参数不足)
+2022-11-24 07:10:42 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-11-24 07:10:42 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-11-24 07:10:42 I/Bot.2645691758: Login successful.
+2022-11-24 07:10:43 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-11-24 07:10:43 I/Bot.2645691758: Bot login successful.
+2022-11-24 07:10:48 V/Bot.2645691758: Event: BotOfflineEvent.Dropped(bot=Bot(2645691758), cause=NettyChannelException(message=null, cause=null), reconnect=true)
+2022-11-24 07:10:48 W/Bot.2645691758: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))
+2022-11-24 07:10:48 W/Bot.2645691758: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))
+2022-11-24 07:10:48 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-11-24 07:10:48 I/Bot.2645691758: Login successful.
+2022-11-24 07:10:48 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-11-24 07:10:48 V/Bot.2645691758: Event: BotReloginEvent(bot=Bot(2645691758), cause=null)
+2022-11-24 07:10:48 I/Bot.2645691758: Reconnected successfully in 0.201s.
+2022-11-24 07:10:48 I/Bot.2645691758: Reconnected successfully in 0.202s.
+2022-11-24 07:10:59 V/Bot.2645691758: 。。。(3043115225) -> 1
