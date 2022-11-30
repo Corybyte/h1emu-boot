@@ -32291,3 +32291,389 @@ Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
 [0m2022-11-28 20:47:50 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
 [0m2022-11-28 20:47:50 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
 [0m2022-11-28 20:48:56 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-28 21:05:14 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-11-28 21:05:19 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-11-28 21:05:19 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-28 21:05:19 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-28 21:05:19 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-11-28 21:05:19 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Server time updated, serverTime: 1669640720, diff: 0ms=0.0s[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Start loading group list...[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-11-28 21:05:20 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:05:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-11-28 21:05:21 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-11-28 21:05:21 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-28 21:05:21 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-28 21:05:23 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-11-28 21:05:23 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-28 21:05:23 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-11-28 21:12:24 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-11-28 21:12:29 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-11-28 21:12:29 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-28 21:12:29 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-28 21:12:29 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-11-28 21:12:29 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-28 21:12:29 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-28 21:12:29 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Server time updated, serverTime: 1669641150, diff: 0ms=0.0s[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Start loading friend list...[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Start loading group list...[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-11-28 21:12:30 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:30 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:12:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:12:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-11-28 21:12:31 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-11-28 21:12:31 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-28 21:12:31 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-28 21:12:33 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-11-28 21:12:33 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-28 21:12:33 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-11-28 21:16:43 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-11-28 21:16:48 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-11-28 21:16:48 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-28 21:16:48 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-28 21:16:48 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Server time updated, serverTime: 1669641409, diff: 0ms=0.0s[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Start loading group list...[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-11-28 21:16:49 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:49 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-11-28 21:16:50 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-11-28 21:16:50 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-11-28 21:16:50 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-28 21:16:50 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-28 21:16:52 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-11-28 21:16:52 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-28 21:16:52 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-11-28 23:09:52 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-28 23:14:42 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[91m2022-11-28 23:24:00 W/Net 2645691758: Exception in resumeConnection.
+HeartbeatFailedException: 2645691758.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:408)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:345)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m
+[0m2022-11-28 23:24:00 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-11-28 23:24:00 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-28 23:24:00 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-28 23:24:00 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-11-28 23:24:00 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-28 23:24:01 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-28 23:24:01 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-11-28 23:24:01 I/Net 2645691758: Server time updated, serverTime: 1669649041, diff: 0ms=0.0s[0m
+[0m2022-11-28 23:24:01 V/Net 2645691758: Recv: StatSvc.register[0m
+[92m2022-11-28 23:24:01 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-28 23:24:01 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-28 23:24:04 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-11-28 23:24:04 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-28 23:24:04 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[91m2022-11-28 23:28:36 W/Net 2645691758: Exception in resumeConnection.
+HeartbeatFailedException: 2645691758.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2645691758.StatHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:408)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:345)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=2645691758.StatHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-28 23:28:36 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-28 23:28:36 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-11-28 23:28:36 I/Net 2645691758: Server time updated, serverTime: 1669649316, diff: 0ms=0.0s[0m
+[0m2022-11-28 23:28:36 V/Net 2645691758: Recv: StatSvc.register[0m
+[92m2022-11-28 23:28:36 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-28 23:28:36 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-28 23:28:39 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-11-28 23:28:39 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-28 23:28:39 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[31m2022-11-28 23:29:54 E/Net 2645691758: Exception in coroutine 'unnamed'
+ExceptionInPacketCodecException(cause=net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.handleExceptionInDecoding$passToExceptionHandler(CommonNetworkHandler.kt:57)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.handleExceptionInDecoding(CommonNetworkHandler.kt:74)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:129)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:299)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:275)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:295)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:319)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:122)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	... 9 more
+[0m
+[31m2022-11-28 23:29:54 E/Net 2645691758: Error while decoding packet 'ByteReadPacket(0 bytes remaining)'
+net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:299)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:275)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:295)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:319)
+	at net.mamoe.mirai.internal.network.components.PacketCodecImpl.decodeRaw(PacketCodec.kt:122)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.decodePacket(CommonNetworkHandler.kt:148)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$decodePacket(CommonNetworkHandler.kt:102)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:125)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m

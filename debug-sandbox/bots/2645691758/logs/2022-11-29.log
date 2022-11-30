@@ -1,0 +1,109 @@
+[91m2022-11-29 01:32:47 W/: Exception in resumeConnection.
+HeartbeatFailedException: 2645691758.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:408)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:345)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+[0m
+[0m2022-11-29 01:32:47 V/: Loading server list from cache.[0m
+[0m2022-11-29 01:32:47 V/: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-29 01:32:47 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-29 01:32:47 E/: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-11-29 01:32:47 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-29 01:32:48 V/: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-29 01:32:48 V/: Send: StatSvc.register(online)[0m
+[92m2022-11-29 01:32:48 I/: Server time updated, serverTime: 1669656768, diff: 0ms=0.0s[0m
+[0m2022-11-29 01:32:48 V/: Recv: StatSvc.register[0m
+[92m2022-11-29 01:32:48 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-11-29 01:32:48 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-11-29 01:32:51 V/: Saving bdh session to cache[0m
+[0m2022-11-29 01:32:51 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-29 01:32:51 V/: Recv: ConfigPushSvc.PushReq[0m
+[91m2022-11-29 01:36:53 W/: Exception in resumeConnection.
+HeartbeatFailedException: 2645691758.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:346)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:408)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:345)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=2645691758.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+[0m
+[0m2022-11-29 01:36:53 V/: Loading server list from cache.[0m
+[0m2022-11-29 01:36:53 V/: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-11-29 01:36:53 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-11-29 01:36:53 E/: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2022-11-29 01:36:53 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-11-29 01:36:53 V/: Recv: wtlogin.exchange_emp[0m
+[0m2022-11-29 01:36:53 V/: Send: StatSvc.register(online)[0m
+[92m2022-11-29 01:36:53 I/: Server time updated, serverTime: 1669657013, diff: 0ms=0.0s[0m
+[0m2022-11-29 01:36:53 V/: Recv: StatSvc.register[0m
+[92m2022-11-29 01:36:53 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-11-29 01:36:53 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2022-11-29 01:36:56 V/: Saving bdh session to cache[0m
+[0m2022-11-29 01:36:56 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-11-29 01:36:56 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-11-29 07:37:21 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-29 08:37:16 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-29 10:29:58 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-29 11:49:55 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-11-29 12:25:11 V/: Send: StatSvc.register(offline)[0m
