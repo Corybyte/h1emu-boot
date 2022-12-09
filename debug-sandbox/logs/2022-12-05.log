@@ -1,0 +1,211 @@
+2022-12-05 17:43:15 I/main: Starting mirai-console...
+2022-12-05 17:43:15 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-05 17:43:15 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-05 17:43:15 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-05 17:43:15 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-05 17:43:15 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-05 17:43:15 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-05 17:43:15 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-05 17:43:16 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-05 17:43:16 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-05 17:43:16 I/main: 1 plugin(s) enabled.
+2022-12-05 17:43:17 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-05 17:43:17 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-05 17:43:17 I/main: Auto-login 2645691758
+2022-12-05 17:43:17 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-05 17:43:17 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-05 17:43:18 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-05 17:43:18 I/Bot.2645691758: Login successful.
+2022-12-05 17:43:19 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-05 17:43:19 I/Bot.2645691758: Bot login successful.
+2022-12-05 17:43:19 I/main: mirai-console started successfully.
+2022-12-05 17:43:19 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+java.lang.RuntimeException: java.net.ConnectException: Failed to connect to /127.0.0.1:8081
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:52)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:8081
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:143)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponse(Call.java:286)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.execute(Call.java:80)
+	at h1emu-boot-dev.mirai2.jar//com.example.util.HttpClient.httpGet(HttpClient.java:20)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.eventController.queryEvent(eventController.java:14)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:47)
+	... 13 more
+
+2022-12-05 17:43:23 W/console: Closing input service...
+2022-12-05 17:43:23 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@690ff391, reconnect=false)
+2022-12-05 17:43:23 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-05 17:43:43 I/main: Starting mirai-console...
+2022-12-05 17:43:43 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-05 17:43:43 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-05 17:43:43 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-05 17:43:43 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-05 17:43:43 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-05 17:43:43 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-05 17:43:43 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-05 17:43:44 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-05 17:43:44 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-05 17:43:44 I/main: 1 plugin(s) enabled.
+2022-12-05 17:43:44 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-05 17:43:44 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-05 17:43:44 I/main: Auto-login 2645691758
+2022-12-05 17:43:45 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-05 17:43:45 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-05 17:43:46 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-05 17:43:46 I/Bot.2645691758: Login successful.
+2022-12-05 17:43:47 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-05 17:43:47 I/Bot.2645691758: Bot login successful.
+2022-12-05 17:43:47 I/main: mirai-console started successfully.
+2022-12-05 17:44:14 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=2847980965)
+2022-12-05 17:44:14 I/h1emu-boot: 2847980965
+2022-12-05 17:56:46 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 　(824061151) -> [mirai:quote:[mirai:source:ids=[31920], internalIds=[0], from 2602143546 to 444200858 at 1670233315], content=<not yet initialized>][mirai:at:2602143546] 你说的那不是服务器 那是电脑
+2022-12-05 17:56:49 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 　(824061151) -> [mirai:image:{295BEE8B-ADA5-0033-1EB8-F1E29BC307EA}.jpg, width=64, height=48, size=1610, type=JPG, isEmoji=true]
+2022-12-05 17:59:34 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-05 18:00:30 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-05 18:12:50 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 鸽*(2523167341) -> 😂
+2022-12-05 18:32:45 W/console: Closing input service...
+2022-12-05 18:32:45 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@2c2f0988, reconnect=false)
+2022-12-05 18:32:45 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-05 19:49:03 I/main: Starting mirai-console...
+2022-12-05 19:49:03 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-05 19:49:03 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-05 19:49:03 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-05 19:49:03 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-05 19:49:03 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-05 19:49:03 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-05 19:49:03 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-05 19:49:03 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-05 19:49:04 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-05 19:49:04 I/main: 1 plugin(s) enabled.
+2022-12-05 19:49:04 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-05 19:49:04 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-05 19:49:04 I/main: Auto-login 2645691758
+2022-12-05 19:49:04 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-05 19:49:05 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-05 19:49:05 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-05 19:49:05 I/Bot.2645691758: Login successful.
+2022-12-05 19:49:07 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-05 19:49:07 I/Bot.2645691758: Bot login successful.
+2022-12-05 19:49:07 I/main: mirai-console started successfully.
+2022-12-05 19:49:19 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-05 19:49:20 I/h1emu-boot: 3043115225
+2022-12-05 19:49:20 I/h1emu-boot: 。。。
+2022-12-05 19:49:20 I/h1emu-boot: 
+2022-12-05 19:49:20 I/h1emu-boot:    
+2022-12-05 19:49:20 I/h1emu-boot: 0
+2022-12-05 19:49:21 I/h1emu-boot: 56
+2022-12-05 19:49:42 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-05 19:49:50 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-05 19:56:32 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=3125536322)
+2022-12-05 19:56:33 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:3125536322] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-05 20:07:28 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> 他可能想问明天停娱
+2022-12-05 20:07:33 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> 服务器停不停
+2022-12-05 20:09:45 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 哦，机房不断网，就一直开着。
+2022-12-05 20:10:03 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> [mirai:image:{19B5808D-9514-F813-435A-BCC44D45E2F5}.jpg, width=62, height=90, size=1835, type=JPG, isEmoji=true]
+2022-12-05 20:10:07 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> 你的机房？
+2022-12-05 20:10:19 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)]  蛋(304318578) -> 有多少人在玩啊
+2022-12-05 20:10:38 V/Bot.2645691758: Event: MemberCardChangeEvent(origin=4, new=, member=NormalMember(3125536322))
+2022-12-05 20:10:38 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> 需要加速器吗
+2022-12-05 20:11:22 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> [mirai:at:893081491] 当然不是了
+2022-12-05 20:11:27 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> [mirai:at:3125536322] 不需要
+2022-12-05 20:13:44 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> 谢谢
+2022-12-05 20:14:20 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> 之前就听说要开生存后面没关注了突然就看到了
+2022-12-05 20:14:24 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> 太疯狂了
+2022-12-05 20:14:27 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> [mirai:image:{9FE8D8B4-1318-4106-DE9C-4EC88BA63002}.jpg, width=180, height=179, size=770985, type=GIF, isEmoji=true]
+2022-12-05 20:27:22 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> [mirai:image:{58E4B95F-9D2F-F301-16C7-B15B07B2E8B8}.jpg, width=300, height=300, size=18398, type=JPG, isEmoji=true]
+2022-12-05 20:30:07 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 4(3125536322) -> [mirai:image:{C4AD7AE8-13C4-5739-8278-00054AE46BDE}.jpg, width=415, height=415, size=23350, type=JPG, isEmoji=true]
+2022-12-05 20:39:02 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 光之吸尘器(1019378847) -> 有没有办法改背包容量
+2022-12-05 20:39:04 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 光之吸尘器(1019378847) -> [托腮]
+2022-12-05 20:39:44 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 为什么要改容量？
+2022-12-05 20:40:06 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 我叫梁哥哥(2816361164) -> 箱子能用了？
+2022-12-05 20:41:46 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 光之吸尘器(1019378847) -> 火力不足恐惧症
+2022-12-05 20:42:46 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> [mirai:at:2816361164] 是的，可以存东西，虽然不是最终形态，但不影响用
+2022-12-05 20:42:56 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 我叫梁哥哥(2816361164) -> OK
+2022-12-05 20:43:04 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 我叫梁哥哥(2816361164) -> [mirai:at:1019378847] 没毛病。
+2022-12-05 20:43:25 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> [mirai:at:1019378847] 就是你要把整个家被在身上呗？
+2022-12-05 20:43:35 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 我叫梁哥哥(2816361164) -> 你不这样吗……
+2022-12-05 20:44:14 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 光之吸尘器(1019378847) -> 移动人肉房车
+2022-12-05 20:44:51 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 　　　(3220375933) -> 明天停服不[汪汪]
+2022-12-05 20:45:18 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> [mirai:image:{6B0148E5-4ACA-F8A6-0D73-CFB314202B5D}.jpg, width=64, height=62, size=1501, type=JPG, isEmoji=true]把你打死东西不都是我的
+2022-12-05 20:45:31 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 可以改，但是暂时没有这个必要。 以后处不同的背包，倒是有可能。
+2022-12-05 20:49:07 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Maxing(568112520) -> just survive现在能玩到什么程度 一个人能玩下去吗
+2022-12-05 20:49:39 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 这个问题，只能自己上线试试了。
+2022-12-05 20:50:34 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=2570119440)
+2022-12-05 20:50:34 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:2570119440] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-05 20:54:48 V/Bot.2645691758: Event: MemberCardChangeEvent(origin=Deja-vu, new=, member=NormalMember(2570119440))
+2022-12-05 20:54:48 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Deja-vu(2570119440) -> 网盘密码多少
+2022-12-05 20:56:26 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> h1emu
+2022-12-05 21:39:16 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 典狱长(183527323) -> [斜眼笑]
+2022-12-05 23:40:10 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 尕尕咕咕(1558172904) -> ce什么都能干
+2022-12-05 23:40:21 V/Bot.2645691758: Event: GroupRecall(bot=Bot(2645691758), authorId=1558172904, messageIds=[31961], messageInternalIds=[78618706], messageTime=1670254810, operator=NormalMember(1558172904), group=Group(444200858), author=NormalMember(1558172904))
+2022-12-05 23:40:23 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 　　　(3220375933) -> ce本地数据
+2022-12-05 23:48:35 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 明天能玩吗
+2022-12-05 23:48:57 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 明天试试就知道了。
+2022-12-05 23:49:18 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 好
+2022-12-05 23:49:33 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 明天能玩的话估计人很多
+2022-12-05 23:53:31 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=1730659121)
+2022-12-05 23:53:31 I/h1emu-boot: 1730659121
+2022-12-05 23:53:32 I/h1emu-boot: Yuyma
+2022-12-05 23:53:32 I/h1emu-boot: 
+2022-12-05 23:53:32 I/h1emu-boot: 
+2022-12-05 23:53:32 I/h1emu-boot: 0
+2022-12-05 23:53:32 I/h1emu-boot: 78

@@ -1,12 +1,13 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.7.10'
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.7.10'
-    id 'net.mamoe.mirai-console' version '2.13.0-RC'
+    id 'net.mamoe.mirai-console' version '2.13.2'
 }
 
 
 group = 'com.example'
 version = '0.1.0'
+
 
 
 repositories {
@@ -22,6 +23,12 @@ dependencies{
     implementation group: 'com.alibaba', name: 'fastjson', version: '2.0.17'
     // https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
     implementation group: 'org.springframework', name: 'spring-core', version: '5.3.23'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20220924'
+
+
+
+
 }
 
 

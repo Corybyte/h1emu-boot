@@ -1,0 +1,1271 @@
+[0m2022-12-08 19:53:36 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 19:53:36 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 19:53:36 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 19:53:36 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 19:53:36 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 19:53:36 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 19:53:36 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Server time updated, serverTime: 1670500416, diff: -1ms=-0.001s[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 19:53:37 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:37 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:38 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:38 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:38 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 19:53:38 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 19:53:38 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 19:53:38 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 19:53:38 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 19:53:38 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 19:53:40 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 19:53:40 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 19:53:40 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 19:53:46 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 19:53:46 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 19:53:47 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:06:35 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 21:06:50 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 21:06:50 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 21:06:50 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 21:06:50 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 21:06:50 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Server time updated, serverTime: 1670504811, diff: 0ms=0.0s[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 21:06:51 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:51 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:06:52 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 21:06:52 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 21:06:52 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 21:06:52 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 21:06:54 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 21:06:54 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 21:06:54 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 21:10:25 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 21:10:30 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 21:10:30 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 21:10:30 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 21:10:30 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 21:10:30 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Server time updated, serverTime: 1670505031, diff: 0ms=0.0s[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 21:10:31 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:31 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:32 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:32 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:32 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 21:10:32 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 21:10:32 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 21:10:32 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 21:10:32 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 21:10:32 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 21:10:34 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 21:10:34 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 21:10:34 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 21:10:36 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:10:36 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:10:36 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:11:00 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:11:22 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 21:11:22 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:11:23 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:11:24 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:52:12 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:52:12 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:52:12 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[96m2022-12-08 21:52:29 D/Net 2645691758: Unknown Transformers528 0x14 template
+templId=10191
+PermList=[TemplParam#465319921 {
+            name=target_qq
+            value=774915366
+    }, TemplParam#465319921 {
+            name=nor_text
+            value=是你可能想认识的人，
+    }, TemplParam#465319921 {
+            name=jump
+            value=mqqapi://group/graytip_addfriend?src_type=app&amp;version=1.0&amp;uin=774915366&amp;troop_uin=3934200858&amp;troop_code=444200858&amp;strategy_id=3
+    }][0m
+[0m2022-12-08 21:53:29 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:53:46 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:53:46 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:53:46 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:54:01 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:54:10 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:54:11 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:54:11 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:54:11 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:55:59 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:55:59 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:55:59 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:56:16 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:56:29 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 21:56:30 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 21:57:34 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:57:34 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:57:34 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:57:47 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:58:13 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:58:13 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:58:13 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:58:28 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 21:58:43 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 21:58:43 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 21:58:43 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:01:00 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:01:08 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:01:08 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:01:09 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:01:57 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:01:57 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:01:57 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:02:13 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:04:16 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:04:16 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:04:17 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:04:18 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:06:38 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:06:39 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:06:39 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:08:24 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:08:40 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:08:40 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:08:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:10:51 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:10:51 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:10:51 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:10:56 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:10:59 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:10:59 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:10:59 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:11:29 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:11:36 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:11:37 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:11:37 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:11:37 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:11:37 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:11:37 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:13:48 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:13:48 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:13:48 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:13:55 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:14:05 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:14:05 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:14:05 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:14:26 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:14:33 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:15:11 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:15:11 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:15:11 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:15:31 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:15:41 V/Net 2645691758: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2022-12-08 22:15:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:15:41 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:15:41 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Send: SummaryCard.ReqSummaryCard(SummaryCard.ReqSummaryCard)[0m
+[0m2022-12-08 22:15:42 V/Net 2645691758: Recv: SummaryCard.ReqSummaryCard[0m
+[0m2022-12-08 22:17:18 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 22:17:18 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 22:17:18 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 22:25:54 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 23:13:30 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:16:53 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:16:53 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:16:53 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:16:53 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:16:53 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Server time updated, serverTime: 1670512614, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:16:54 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:54 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:16:55 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:16:55 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:16:55 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:16:55 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:16:57 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:16:57 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:16:57 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:17:33 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:17:39 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Server time updated, serverTime: 1670512659, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Start loading friend list...[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:17:39 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:17:39 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:17:40 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:17:40 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:17:40 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:41 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:17:41 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:17:41 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:17:41 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:17:41 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:17:41 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:17:42 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:17:42 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:17:42 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:18:46 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:18:46 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[0m2022-12-08 23:18:46 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 23:19:20 V/Net 2645691758: Recv: StatSvc.SvcReqMSFLoginNotify[0m
+[0m2022-12-08 23:19:36 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:19:36 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:23:47 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:25:00 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Server time updated, serverTime: 1670513100, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:25:00 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:00 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:25:01 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:01 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:02 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:25:02 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:25:02 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:25:02 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:25:02 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:25:02 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:25:03 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:25:03 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:25:03 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:25:15 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:25:15 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:26:37 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:26:42 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:26:42 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:26:42 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:26:42 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:26:42 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:26:42 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Server time updated, serverTime: 1670513203, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Start loading stranger list...[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Start loading friend list...[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:26:43 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:43 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:26:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:26:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:26:44 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:26:44 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:26:44 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:26:46 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:26:46 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:26:46 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:27:01 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:27:01 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:34:57 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:34:57 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:36:34 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:36:39 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:36:39 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:36:39 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:36:39 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:36:39 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:36:39 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Server time updated, serverTime: 1670513800, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:36:40 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:40 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:41 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:36:41 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:36:41 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:36:41 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:36:41 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:36:41 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:36:43 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:36:43 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:36:43 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:41:55 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:41:55 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:44:00 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:44:05 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:44:05 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:44:05 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:44:05 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:44:05 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Server time updated, serverTime: 1670514246, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Syncing friend message history: Success.[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:44:06 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:06 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:44:07 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:44:07 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:44:07 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:44:07 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:44:09 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:44:09 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:44:09 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:44:22 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:44:22 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:53:04 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:53:16 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:53:16 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:53:16 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:53:16 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:53:16 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:53:16 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:53:16 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Server time updated, serverTime: 1670514797, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Start loading friend list...[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:53:17 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:17 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:18 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:18 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:18 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:53:18 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:53:18 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:53:18 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:53:18 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:53:18 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:53:20 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:53:20 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:53:20 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:53:43 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:53:43 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:54:38 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:54:43 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:54:43 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:54:43 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:54:43 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:54:43 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Server time updated, serverTime: 1670514884, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Start loading stranger list...[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Start loading friend list...[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:54:44 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:45 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:45 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:45 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:54:45 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:54:45 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:54:45 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:54:45 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:54:45 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:54:47 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:54:47 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:54:47 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:55:11 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:55:11 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:55:35 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:55:43 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Server time updated, serverTime: 1670514943, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:55:43 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:55:43 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:55:44 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:55:44 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:55:44 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:55:44 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:44 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:45 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:55:45 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:55:45 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:55:45 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:55:45 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:55:45 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:55:46 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:55:46 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:55:46 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:55:58 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:55:59 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:58:25 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:58:32 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:58:32 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:58:32 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:58:32 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:58:32 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Server time updated, serverTime: 1670515113, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: No OtherClient online.[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:58:33 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:33 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:34 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:34 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:34 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:58:34 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:58:34 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:58:34 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:58:34 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:58:34 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:58:36 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:58:36 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:58:36 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:58:50 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:58:50 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2022-12-08 23:59:11 V/Net 2645691758: Send: StatSvc.register(offline)[0m
+[0m2022-12-08 23:59:19 V/Net 2645691758: Loading server list from cache.[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Server list: 123.151.54.180:443, 183.47.102.213:14000, msfwifi.3g.qq.com:8080, 42.81.194.99:80, 42.81.192.185:443, 180.102.191.69:8080, 183.47.101.173:80, 180.102.191.164:8080, 117.62.243.156:80, 183.47.117.200:8080.[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[31m2022-12-08 23:59:20 E/Net 2645691758: Failed to fetch ECDH public key from server, using default key instead
+java.lang.NoClassDefFoundError: okhttp3/Request$Builder
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.convertToOkHttpRequest(OkHttpEngine.kt:183)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngineKt.access$convertToOkHttpRequest(OkHttpEngine.kt:1)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.okhttp.OkHttpEngine.execute(OkHttpEngine.kt:72)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.engine.HttpClientEngine$executeWithinCallContext$2.invokeSuspend(HttpClientEngine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.ClassNotFoundException: okhttp3.Request$Builder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 12 more
+[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: wtlogin.exchange_emp[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: StatSvc.register(online)[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Server time updated, serverTime: 1670515160, diff: 0ms=0.0s[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: StatSvc.register[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Loading BdhSession from cache file[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Syncing friend message history...[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Start loading friend list...[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Start loading stranger list...[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: No OtherClient online.[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: OidbSvc.0x5d2_0[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Successfully loaded stranger list: 0 in total[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: OidbSvc.0x496[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Start loading group list...[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Syncing friend message history: Success.[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Loading friend list: 5/5[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Successfully loaded friend list: 5 in total[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Start loading friendGroup list...[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: friendlist.getFriendGroupList[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Loading friendGroup list: 1/1[0m
+[92m2022-12-08 23:59:20 I/Net 2645691758: Successfully loaded friendGroup list: 1 in total[0m
+[0m2022-12-08 23:59:20 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-12-08 23:59:21 V/Net 2645691758: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-12-08 23:59:22 I/Net 2645691758: Successfully loaded group list: 3 in total.[0m
+[92m2022-12-08 23:59:22 I/Net 2645691758: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-12-08 23:59:22 I/Net 2645691758: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-12-08 23:59:23 V/Net 2645691758: Saving bdh session to cache[0m
+[0m2022-12-08 23:59:23 V/Net 2645691758: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-12-08 23:59:23 V/Net 2645691758: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-12-08 23:59:42 V/Net 2645691758: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2022-12-08 23:59:42 V/Net 2645691758: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m

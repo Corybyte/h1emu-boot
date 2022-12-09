@@ -1,0 +1,918 @@
+2022-12-08 19:53:33 I/main: Starting mirai-console...
+2022-12-08 19:53:33 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 19:53:33 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 19:53:33 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 19:53:33 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 19:53:34 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 19:53:34 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 19:53:34 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 19:53:35 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 19:53:35 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 19:53:35 I/main: 1 plugin(s) enabled.
+2022-12-08 19:53:35 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 19:53:35 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 19:53:35 I/main: Auto-login 2645691758
+2022-12-08 19:53:36 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 19:53:36 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 19:53:36 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 19:53:37 I/Bot.2645691758: Login successful.
+2022-12-08 19:53:38 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 19:53:38 I/Bot.2645691758: Bot login successful.
+2022-12-08 19:53:38 I/main: mirai-console started successfully.
+2022-12-08 19:53:46 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 19:53:47 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 19:56:04 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 耶格(893081491) -> [mirai:image:{58E4B95F-9D2F-F301-16C7-B15B07B2E8B8}.jpg, width=300, height=300, size=18398, type=JPG, isEmoji=true]
+2022-12-08 20:16:11 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 念旧(609429045) -> [mirai:image:{45E07CD5-DC53-8805-25C6-4754B5C1E6FF}.jpg, width=1080, height=1920, size=400566, type=JPG, isEmoji=false]
+2022-12-08 20:16:25 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 念旧(609429045) -> 启动器打不开有大哥会解决么
+2022-12-08 20:16:42 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 用命令试试
+2022-12-08 20:18:14 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 念旧(609429045) -> 成
+2022-12-08 20:27:00 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> [mirai:at:7859832] 
+2022-12-08 20:27:45 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 1
+2022-12-08 20:28:14 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 在kook把我拉倒niniu那个频道
+2022-12-08 20:28:17 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 我进不去
+2022-12-08 20:28:19 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> 没权限
+2022-12-08 20:28:22 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> [mirai:at:7859832] z1服现在不能用传送代码了吗？
+2022-12-08 20:30:22 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Agoni(3273224282) -> [mirai:at:7859832] 
+2022-12-08 20:30:53 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 不能传送
+2022-12-08 20:33:31 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 建造代码也不行用啦？
+2022-12-08 20:33:45 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 是的，
+2022-12-08 20:33:51 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 靠自己生存了。
+2022-12-08 21:06:35 W/console: Closing input service...
+2022-12-08 21:06:35 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@5c3e54ce, reconnect=false)
+2022-12-08 21:06:35 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 21:06:48 I/main: Starting mirai-console...
+2022-12-08 21:06:48 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 21:06:48 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 21:06:48 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 21:06:48 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 21:06:48 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 21:06:48 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 21:06:48 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 21:06:49 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 21:06:49 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 21:06:49 I/main: 1 plugin(s) enabled.
+2022-12-08 21:06:50 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 21:06:50 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 21:06:50 I/main: Auto-login 2645691758
+2022-12-08 21:06:50 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 21:06:50 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 21:06:51 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 21:06:51 I/Bot.2645691758: Login successful.
+2022-12-08 21:06:52 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 21:06:52 I/Bot.2645691758: Bot login successful.
+2022-12-08 21:06:52 I/main: mirai-console started successfully.
+2022-12-08 21:10:25 W/console: Closing input service...
+2022-12-08 21:10:25 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@7323d5b, reconnect=false)
+2022-12-08 21:10:25 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 21:10:28 I/main: Starting mirai-console...
+2022-12-08 21:10:28 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 21:10:28 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 21:10:28 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 21:10:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 21:10:28 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 21:10:28 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 21:10:28 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 21:10:29 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 21:10:29 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 21:10:29 I/main: 1 plugin(s) enabled.
+2022-12-08 21:10:30 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 21:10:30 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 21:10:30 I/main: Auto-login 2645691758
+2022-12-08 21:10:30 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 21:10:30 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 21:10:31 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 21:10:31 I/Bot.2645691758: Login successful.
+2022-12-08 21:10:32 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 21:10:32 I/Bot.2645691758: Bot login successful.
+2022-12-08 21:10:32 I/main: mirai-console started successfully.
+2022-12-08 21:10:36 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:10:36 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 念旧(609429045) -> 这个，我看人怎么都没有头…没衣服[捂脸]
+2022-12-08 21:10:48 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 21:10:55 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 没打皮肤补丁
+2022-12-08 21:11:00 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:11:05 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 念旧(609429045) -> 嗷嗷
+2022-12-08 21:11:22 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 21:11:24 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 21:40:54 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 有人一起建家吗？
+2022-12-08 21:45:16 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 大鹰(1289610466) -> [mirai:at:964043971]  你教我 我和你一起健
+2022-12-08 21:48:59 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 可以
+2022-12-08 21:49:30 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 被卡在密钥这里了，已经注册不了，只能用steam登，但是网页一直打不开[撇嘴]
+2022-12-08 21:49:44 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> [mirai:image:{8FD9FC1A-0B94-4315-1612-46F90574ADB4}.png, width=697, height=396, size=46172, type=PNG, isEmoji=false]
+2022-12-08 21:49:59 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> [mirai:at:1289610466] 我们用什么交流呢
+2022-12-08 21:50:02 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> [mirai:image:{AF935446-2942-8359-8B9F-DD007B9AC698}.png, width=686, height=388, size=214209, type=PNG, isEmoji=false]
+2022-12-08 21:50:11 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 你有没有yy
+2022-12-08 21:50:17 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> [mirai:image:{668B0B98-CCC9-D708-CC25-BA2BEC513092}.png, width=1785, height=966, size=98257, type=PNG, isEmoji=false]
+2022-12-08 21:50:17 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 注册渠道关闭
+2022-12-08 21:50:22 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 用steam授权登录
+2022-12-08 21:50:31 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> steam登录一直是这样 登录了没反应
+2022-12-08 21:50:59 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 开UU加速
+2022-12-08 21:51:34 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 我是迅游[大哭]
+2022-12-08 21:51:52 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 都行，加速steam试试。
+2022-12-08 21:52:12 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:52:18 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 我刚刚也是给别人这样注册的。过两个，他们修改好功能，不方便steam的，可以邀请
+2022-12-08 21:53:29 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:53:46 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:53:55 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 21:54:01 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:54:10 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 21:54:11 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 21:54:50 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=1093996424)
+2022-12-08 21:54:50 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:1093996424] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-08 21:55:59 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:56:11 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 21:56:16 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:56:29 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 21:56:30 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 21:56:36 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 大鹰(1289610466) -> [mirai:at:964043971] 我意思 你教我怎么下载
+2022-12-08 21:56:39 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 大鹰(1289610466) -> [mirai:image:{C9B001DA-C522-9209-5909-496B3713872C}.jpg, width=198, height=198, size=12171, type=JPG, isEmoji=true]
+2022-12-08 21:57:34 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:57:47 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:58:13 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:58:28 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 21:58:43 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 21:59:45 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:00:50 V/Bot.2645691758: [bot测试(634427123)][SYNC] <- 1
+2022-12-08 22:01:00 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:01:08 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:01:09 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:01:57 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:02:05 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:02:13 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:04:16 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> [笑哭]
+2022-12-08 22:04:16 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:04:18 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:04:27 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 谁是LoL
+2022-12-08 22:05:15 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> [mirai:at:1289610466] 就网盘下载就好啦
+2022-12-08 22:06:12 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> [mirai:image:{02F8E7E1-F1FE-6E49-F648-F3F23439B038}.png, width=289, height=212, size=113563, type=PNG, isEmoji=false]
+2022-12-08 22:06:20 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 不是我
+2022-12-08 22:06:39 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:06:50 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:07:17 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 哈？
+2022-12-08 22:08:24 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:08:40 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:08:41 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:09:10 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=954466401)
+2022-12-08 22:09:10 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:954466401] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-08 22:10:51 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:10:56 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:10:59 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:11:24 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:11:29 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:11:36 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:11:37 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:13:48 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:13:55 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:14:05 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:14:18 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:14:26 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:14:33 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:14:33 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:15:11 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:15:25 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:15:31 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:15:41 V/Bot.2645691758: Event: MemberLeaveEvent.Quit(member=3043115225)
+2022-12-08 22:15:42 I/h1emu-boot: {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}
+2022-12-08 22:17:18 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 22:17:25 V/Bot.2645691758: Event: MemberJoinEvent.Invite(member=3043115225, invitor=2645691758)
+2022-12-08 22:17:40 V/Bot.2645691758: Event: MemberCardChangeEvent(origin=。。。, new=, member=NormalMember(3043115225))
+2022-12-08 22:17:40 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:45 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:47 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n \n
+2022-12-08 22:17:47 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:48 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:49 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:49 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:50 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:51 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:51 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:17:52 V/Bot.2645691758: [bot测试(634427123)] 。。。(3043115225) -> {"QQAge":0,"exitGroupAvatar":"http://p.qlogo.cn/gh/634427123/634427123/640","QQSign":"   ","QQName":"。。。","exitGroupName":"bot测试","exitGroupId":634427123,"QQLevel":56,"QQEmail":"","QQID":3043115225}\nMemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)\n 
+2022-12-08 22:21:42 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> [mirai:image:{A64DB08E-4CF9-CFC2-AD46-73F40BAF09AD}.png, width=1518, height=1102, size=627369, type=PNG, isEmoji=false]
+2022-12-08 22:21:53 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Mafia(964043971) -> 这个是因为什么啊
+2022-12-08 22:22:21 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 等5分钟在进游戏
+2022-12-08 22:23:15 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=2358785531)
+2022-12-08 22:23:15 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:2358785531] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-08 22:25:54 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 22:44:13 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=646961572)
+2022-12-08 22:44:14 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:646961572] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-08 23:05:31 V/Bot.2645691758: Event: MemberJoinEvent.Active(member=407066099)
+2022-12-08 23:05:32 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Q群管家(2854196310) -> [mirai:at:407066099] 欢迎老铁，游戏开发进度与安装方法看公告，遇到问题可以 @Q群管家 或点这里 azaz.ge[mirai:image:{22FFF745-DD0E-EA6F-E8A7-253422EC1646}.jpg, width=480, height=270, size=14406, type=JPG, isEmoji=false]\n——来自群管理员（7859832）的编辑
+2022-12-08 23:13:30 W/console: Closing input service...
+2022-12-08 23:13:30 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@3fcdce77, reconnect=false)
+2022-12-08 23:13:30 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:16:51 I/main: Starting mirai-console...
+2022-12-08 23:16:51 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:16:51 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:16:51 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:16:51 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:16:51 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:16:51 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:16:51 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:16:52 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:16:52 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:16:52 I/main: 1 plugin(s) enabled.
+2022-12-08 23:16:53 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:16:53 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:16:53 I/main: Auto-login 2645691758
+2022-12-08 23:16:53 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:16:53 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:16:54 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:16:54 I/Bot.2645691758: Login successful.
+2022-12-08 23:16:55 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:16:55 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:16:55 I/main: mirai-console started successfully.
+2022-12-08 23:17:33 W/console: Closing input service...
+2022-12-08 23:17:33 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@534b54, reconnect=false)
+2022-12-08 23:17:33 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:17:37 I/main: Starting mirai-console...
+2022-12-08 23:17:37 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:17:37 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:17:37 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:17:37 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:17:37 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:17:37 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:17:37 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:17:38 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:17:38 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:17:38 I/main: 1 plugin(s) enabled.
+2022-12-08 23:17:38 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:17:38 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:17:38 I/main: Auto-login 2645691758
+2022-12-08 23:17:38 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:17:39 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:17:39 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:17:39 I/Bot.2645691758: Login successful.
+2022-12-08 23:17:41 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:17:41 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:17:41 I/main: mirai-console started successfully.
+2022-12-08 23:18:46 V/Bot.2645691758: Event: OtherClientOnlineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE), kind=MOBILE_ANDROID)
+2022-12-08 23:19:20 V/Bot.2645691758: Event: OtherClientOfflineEvent(client=OtherClient(bot=2645691758,deviceName=Pixel 4,platform=MOBILE))
+2022-12-08 23:19:36 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670512776500067, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:23:20 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] Earl.(6370176) -> 建筑命令怎么都没法用啊
+2022-12-08 23:23:47 W/console: Closing input service...
+2022-12-08 23:23:47 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@733a8390, reconnect=false)
+2022-12-08 23:23:47 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:24:58 I/main: Starting mirai-console...
+2022-12-08 23:24:58 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:24:58 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:24:58 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:24:58 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:24:58 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:24:58 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:24:58 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:24:59 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:24:59 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:24:59 I/main: 1 plugin(s) enabled.
+2022-12-08 23:24:59 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:24:59 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:24:59 I/main: Auto-login 2645691758
+2022-12-08 23:24:59 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:25:00 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:25:00 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:25:00 I/Bot.2645691758: Login successful.
+2022-12-08 23:25:02 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:25:02 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:25:02 I/main: mirai-console started successfully.
+2022-12-08 23:25:08 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> [mirai:image:{A051028D-FC50-58E1-7F59-A377F1F169CD}.png, width=260, height=91, size=27657, type=PNG, isEmoji=false]  这老是切输入法 有解决方法不
+2022-12-08 23:25:15 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670513115464103, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:25:25 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+java.lang.RuntimeException: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:57)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$3.newTimeoutException(Okio.java:207)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.access$200(HttpEngine.java:87)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine$NetworkInterceptorChain.proceed(HttpEngine.java:722)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:576)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponse(Call.java:287)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.execute(Call.java:80)
+	at h1emu-boot-dev.mirai2.jar//com.example.util.HttpClient.httpGet(HttpClient.java:20)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:30)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	... 13 more
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$2.read(Okio.java:139)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+	... 29 more
+
+2022-12-08 23:26:36 W/console: Closing input service...
+2022-12-08 23:26:37 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@7bcb3083, reconnect=false)
+2022-12-08 23:26:37 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:26:40 I/main: Starting mirai-console...
+2022-12-08 23:26:40 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:26:40 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:26:40 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:26:40 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:26:40 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:26:40 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:26:40 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:26:41 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:26:41 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:26:41 I/main: 1 plugin(s) enabled.
+2022-12-08 23:26:42 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:26:42 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:26:42 I/main: Auto-login 2645691758
+2022-12-08 23:26:42 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:26:42 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:26:43 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:26:43 I/Bot.2645691758: Login successful.
+2022-12-08 23:26:44 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:26:44 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:26:44 I/main: mirai-console started successfully.
+2022-12-08 23:27:01 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670513221301507, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:27:01 I/stdout: [MemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=http://p.qlogo.cn/gh/634427123/634427123/640, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)]
+2022-12-08 23:27:05 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 添加一个英文输入法，设置城默认
+2022-12-08 23:30:10 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 面条猫猫(2907732860) -> 有没有不打架的服
+2022-12-08 23:34:57 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670513697643507, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:35:07 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+java.lang.RuntimeException: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:57)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$3.newTimeoutException(Okio.java:207)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.access$200(HttpEngine.java:87)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine$NetworkInterceptorChain.proceed(HttpEngine.java:722)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:576)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponse(Call.java:287)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.execute(Call.java:80)
+	at h1emu-boot-dev.mirai2.jar//com.example.util.HttpClient.httpGet(HttpClient.java:20)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:30)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	... 13 more
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$2.read(Okio.java:139)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+	... 29 more
+
+2022-12-08 23:36:34 W/console: Closing input service...
+2022-12-08 23:36:34 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@246fa8ff, reconnect=false)
+2022-12-08 23:36:34 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:36:37 I/main: Starting mirai-console...
+2022-12-08 23:36:37 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:36:37 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:36:37 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:36:37 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:36:37 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:36:37 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:36:37 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:36:38 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:36:38 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:36:38 I/main: 1 plugin(s) enabled.
+2022-12-08 23:36:38 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:36:38 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:36:38 I/main: Auto-login 2645691758
+2022-12-08 23:36:39 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:36:39 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:36:39 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:36:40 I/Bot.2645691758: Login successful.
+2022-12-08 23:36:41 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:36:41 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:36:41 I/main: mirai-console started successfully.
+2022-12-08 23:41:55 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670514114983405, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:42:05 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+java.lang.RuntimeException: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:57)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$3.newTimeoutException(Okio.java:207)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.access$200(HttpEngine.java:87)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine$NetworkInterceptorChain.proceed(HttpEngine.java:722)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:576)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponse(Call.java:287)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.execute(Call.java:80)
+	at h1emu-boot-dev.mirai2.jar//com.example.util.HttpClient.httpGet(HttpClient.java:20)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:30)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	... 13 more
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$2.read(Okio.java:139)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+	... 29 more
+
+2022-12-08 23:44:00 W/console: Closing input service...
+2022-12-08 23:44:00 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@470561b0, reconnect=false)
+2022-12-08 23:44:00 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:44:03 I/main: Starting mirai-console...
+2022-12-08 23:44:03 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:44:03 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:44:03 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:44:03 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:44:04 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:44:04 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:44:04 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:44:04 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:44:04 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:44:04 I/main: 1 plugin(s) enabled.
+2022-12-08 23:44:05 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:44:05 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:44:05 I/main: Auto-login 2645691758
+2022-12-08 23:44:05 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:44:05 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:44:06 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:44:06 I/Bot.2645691758: Login successful.
+2022-12-08 23:44:07 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:44:07 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:44:07 I/main: mirai-console started successfully.
+2022-12-08 23:44:22 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670514262078244, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:44:22 I/stdout: [MemberBlackList(QQID=123, QQName=123, exitGroupID=123, exitGroupName=123, exitGroupAvatar=123, QQEmail=123, QQSign=null, QQAge=123, QQLevel=123), MemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=123, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)]
+2022-12-08 23:50:59 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 建筑命令 是不是只能用在单机版
+2022-12-08 23:53:04 W/console: Closing input service...
+2022-12-08 23:53:04 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@438178ca, reconnect=false)
+2022-12-08 23:53:04 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:53:14 I/main: Starting mirai-console...
+2022-12-08 23:53:14 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:53:14 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:53:14 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:53:14 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:53:14 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:53:14 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:53:14 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:53:15 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:53:15 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:53:15 I/main: 1 plugin(s) enabled.
+2022-12-08 23:53:15 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:53:15 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:53:15 I/main: Auto-login 2645691758
+2022-12-08 23:53:16 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:53:16 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:53:16 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:53:17 I/Bot.2645691758: Login successful.
+2022-12-08 23:53:18 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:53:18 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:53:18 I/main: mirai-console started successfully.
+2022-12-08 23:53:43 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670514822971236, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:53:53 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+java.lang.RuntimeException: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:57)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.net.SocketTimeoutException: timeout
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$3.newTimeoutException(Okio.java:207)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout.exit(AsyncTimeout.java:261)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:215)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:306)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.indexOf(RealBufferedSource.java:300)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:196)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:186)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:127)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:737)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.access$200(HttpEngine.java:87)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine$NetworkInterceptorChain.proceed(HttpEngine.java:722)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:576)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponse(Call.java:287)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:243)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:205)
+	at h1emu-boot-dev.mirai2.jar[private]//com.squareup.okhttp.Call.execute(Call.java:80)
+	at h1emu-boot-dev.mirai2.jar//com.example.util.HttpClient.httpGet(HttpClient.java:20)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:31)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	... 13 more
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.Okio$2.read(Okio.java:139)
+	at h1emu-boot-dev.mirai2.jar[private]//okio.AsyncTimeout$2.read(AsyncTimeout.java:211)
+	... 29 more
+
+2022-12-08 23:54:14 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 不是
+2022-12-08 23:54:34 V/Bot.2645691758: 。。。(3043115225) -> 1
+2022-12-08 23:54:38 W/console: Closing input service...
+2022-12-08 23:54:38 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@58e50f89, reconnect=false)
+2022-12-08 23:54:38 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:54:41 I/main: Starting mirai-console...
+2022-12-08 23:54:41 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:54:41 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:54:41 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:54:41 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:54:42 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:54:42 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:54:42 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:54:42 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:54:42 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:54:42 I/main: 1 plugin(s) enabled.
+2022-12-08 23:54:43 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:54:43 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:54:43 I/main: Auto-login 2645691758
+2022-12-08 23:54:43 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:54:43 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:54:44 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:54:44 I/Bot.2645691758: Login successful.
+2022-12-08 23:54:45 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:54:45 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:54:45 I/main: mirai-console started successfully.
+2022-12-08 23:54:51 V/Bot.2645691758: 。。。(3043115225) -> 2
+2022-12-08 23:54:53 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 不可以了。
+2022-12-08 23:54:55 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 关闭了
+2022-12-08 23:55:06 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 那哪个模式里可以用啊
+2022-12-08 23:55:11 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670514911464089, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:55:12 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+com.alibaba.fastjson.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:182)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:32)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: com.alibaba.fastjson2.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson2.JSONReader.read(JSONReader.java:1385)
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:173)
+	... 15 more
+
+2022-12-08 23:55:35 W/console: Closing input service...
+2022-12-08 23:55:35 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@aa65f4b, reconnect=false)
+2022-12-08 23:55:35 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:55:41 I/main: Starting mirai-console...
+2022-12-08 23:55:41 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:55:41 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:55:41 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:55:41 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:55:41 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:55:41 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:55:41 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:55:42 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:55:42 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:55:42 I/main: 1 plugin(s) enabled.
+2022-12-08 23:55:42 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:55:42 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:55:42 I/main: Auto-login 2645691758
+2022-12-08 23:55:42 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:55:43 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:55:43 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:55:43 I/Bot.2645691758: Login successful.
+2022-12-08 23:55:45 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:55:45 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:55:45 I/main: mirai-console started successfully.
+2022-12-08 23:55:59 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670514958844987, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:55:59 I/stdout: "[MemberBlackList(QQID=123, QQName=123, exitGroupID=123, exitGroupName=123, exitGroupAvatar=123, QQEmail=123, QQSign=null, QQAge=123, QQLevel=123), MemberBlackList(QQID=3043115225, QQName=。。。, exitGroupID=634427123, exitGroupName=bot测试, exitGroupAvatar=123, QQEmail=, QQSign=   , QQAge=0, QQLevel=null)]"
+2022-12-08 23:56:55 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] AZAZ(7859832) -> 没有哦
+2022-12-08 23:57:10 V/Bot.2645691758: [H1Emu中文社区(为生存而逃杀)贰(444200858)] 唯一(915588652) -> 联网模式里可以做地基吗
+2022-12-08 23:58:25 W/console: Closing input service...
+2022-12-08 23:58:25 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@49831bd1, reconnect=false)
+2022-12-08 23:58:25 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:58:30 I/main: Starting mirai-console...
+2022-12-08 23:58:30 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:58:30 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:58:30 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:58:30 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:58:31 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:58:31 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:58:31 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:58:31 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:58:31 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:58:31 I/main: 1 plugin(s) enabled.
+2022-12-08 23:58:32 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:58:32 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:58:32 I/main: Auto-login 2645691758
+2022-12-08 23:58:32 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:58:32 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:58:33 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:58:33 I/Bot.2645691758: Login successful.
+2022-12-08 23:58:34 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:58:34 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:58:34 I/main: mirai-console started successfully.
+2022-12-08 23:58:50 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670515130016194, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:58:50 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+com.alibaba.fastjson.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:182)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:32)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: com.alibaba.fastjson2.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson2.JSONReader.read(JSONReader.java:1385)
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:173)
+	... 15 more
+
+2022-12-08 23:59:11 W/console: Closing input service...
+2022-12-08 23:59:11 V/Bot.2645691758: Event: BotOfflineEvent.Active(bot=Bot(2645691758), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@4ca0fae1, reconnect=false)
+2022-12-08 23:59:11 I/Bot.2645691758: Bot cancelled: Job was cancelled
+2022-12-08 23:59:18 I/main: Starting mirai-console...
+2022-12-08 23:59:18 I/main: 
+
+=================================[ Mirai consosle 2.13.0-RC ]=================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2022-12-08 23:59:18 I/main: Backend: version 2.13.0-RC, built on 2022-10-02 17:37:18.
+2022-12-08 23:59:18 I/main: Frontend Terminal: version 2.13.0-RC, provided by Mamoe Technologies
+2022-12-08 23:59:18 I/main: Welcome to visit https://mirai.mamoe.net/
+2022-12-08 23:59:18 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-08 23:59:18 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-08 23:59:18 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-12-08 23:59:19 I/plugin: Successfully loaded plugin h1emu-boot v0.1.0
+2022-12-08 23:59:19 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2022-12-08 23:59:19 I/main: 1 plugin(s) enabled.
+2022-12-08 23:59:19 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.
+2022-12-08 23:59:19 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.
+2022-12-08 23:59:19 I/main: Auto-login 2645691758
+2022-12-08 23:59:19 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2022-12-08 23:59:20 I/Bot.2645691758: Loaded account secrets from local cache.
+2022-12-08 23:59:20 I/Bot.2645691758: Saved account secrets to local cache for fast login.
+2022-12-08 23:59:20 I/Bot.2645691758: Login successful.
+2022-12-08 23:59:22 V/Bot.2645691758: Event: BotOnlineEvent(bot=Bot(2645691758))
+2022-12-08 23:59:22 I/Bot.2645691758: Bot login successful.
+2022-12-08 23:59:22 I/main: mirai-console started successfully.
+2022-12-08 23:59:42 V/Bot.2645691758: Event: MemberJoinRequestEvent(bot=Bot(2645691758), eventId=1670515182042225, message=大家好，我是。。。。, fromId=3043115225, groupId=634427123, groupName=bot测试, fromNick=。。。, invitorId=null)
+2022-12-08 23:59:42 W/Bot.2645691758: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 2645691758.EventDispatcher'
+com.alibaba.fastjson.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:182)
+	at h1emu-boot-dev.mirai2.jar//com.example.controller.MemberBlackListController.Memberjoin(MemberBlackListController.java:32)
+	at h1emu-boot-dev.mirai2.jar//com.example.H1emuBoot.lambda$onEnable$1(H1emuBoot.java:55)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:626)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: com.alibaba.fastjson2.JSONException: illegal input， offset 304, char 
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson2.JSONReader.read(JSONReader.java:1385)
+	at h1emu-boot-dev.mirai2.jar[private]//com.alibaba.fastjson.JSON.parseObject(JSON.java:173)
+	... 15 more
+

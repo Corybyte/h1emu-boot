@@ -8,5 +8,6 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10
 org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10
 org.jetbrains.kotlin:kotlin-stdlib:1.7.10
 org.jetbrains:annotations:13.0
+org.json:json:20220924
 org.springframework:spring-core:5.3.23
 org.springframework:spring-jcl:5.3.23

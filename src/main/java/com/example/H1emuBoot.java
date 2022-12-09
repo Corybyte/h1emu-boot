@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.controller.MemberBlackListController;
 import com.example.controller.eventController;
 import com.example.controller.groupController;
 import com.example.controller.MemberController;
@@ -9,6 +10,8 @@ import net.mamoe.mirai.console.plugin.jvm.JavaPlugin;
 import net.mamoe.mirai.console.plugin.jvm.JvmPluginDescriptionBuilder;
 import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.events.BotOnlineEvent;
+import net.mamoe.mirai.event.events.MemberJoinRequestEvent;
+import net.mamoe.mirai.event.events.MemberLeaveEvent;
 
 import java.io.IOException;
 import java.util.Timer;
@@ -18,6 +21,7 @@ import java.util.TimerTask;
 public class H1emuBoot extends JavaPlugin {
     groupController groupUtil = new groupController();
     MemberController memberController = new MemberController();
+    MemberBlackListController memberBlackListController = new MemberBlackListController();
     Timer timer = new Timer();
 
 
@@ -36,7 +40,28 @@ public class H1emuBoot extends JavaPlugin {
     }
 
 
-    public void onEnable() {
+    public void onEnable()  {
+
+        //群员退群
+        GlobalEventChannel.INSTANCE.subscribeAlways(MemberLeaveEvent.Kick.class, (MemberLeaveEvent.Kick event) ->{
+            try {
+                memberBlackListController.addMemberBlackList(event);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        //群员入群
+        GlobalEventChannel.INSTANCE.subscribeAlways(MemberJoinRequestEvent.class, (MemberJoinRequestEvent event) ->{
+            try {
+                memberBlackListController.Memberjoin(event);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+
+        /**
         GlobalEventChannel.INSTANCE.subscribeAlways(BotOnlineEvent.class, (BotOnlineEvent event) ->{
             while (true){
                 try {
@@ -49,5 +74,8 @@ public class H1emuBoot extends JavaPlugin {
                 }
             }
         });
+         **/
+
+
     }
 }
